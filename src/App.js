@@ -3,7 +3,7 @@ import { useState } from "react";
 import Grid from "@material-ui/core/Grid";
 import data from "./dictionary.json";
 import "./styles.css";
-const numWords = 326;
+const numWords = 326; //Make sure to increase the number if you add more words
 export default function App() {
   const [num, setCount] = useState(0);
   return (
