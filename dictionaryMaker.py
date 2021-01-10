@@ -1,4 +1,4 @@
-filePath = "/Users/sanjaynirmal/Desktop/dictionary.json"
+filePath = " " #insert file path
 f = open(filePath, "a")
 f.write('{ "object":[')
 while(True):
