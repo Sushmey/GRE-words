@@ -1,0 +1,115 @@
+.App {
+  font-family: sans-serif;
+  display: grid;
+  text-align: center;
+}
+#word {
+  font-family: "Roboto Condensed", sans-serif;
+}
+#meaning {
+  font-family: "Fira Sans", sans-serif;
+}
+body {
+  background-color: #5aa469;
+}
+.transparentButton {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+.sun {
+  margin-top: 2vh;
+  height: 12vh;
+}
+.card {
+  height: 20vh;
+  max-height: 20vh;
+  width: 50vw;
+  background-color: #f8d49d;
+  margin: 6vh auto auto auto;
+  border-radius: 10px;
+  overflow-y: scroll;
+  padding: 12px;
+}
+.button {
+  width: 100px;
+  height: 48px;
+  border-radius: 10px;
+  background-color: #d35d6e;
+  color: #0b0704;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  border: none;
+}
+.button:hover {
+  background-color: #fe1493;
+}
+.button:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  background-color: lavender;
+  /* Lowering the shadow */
+}
+.bottom {
+  position: fixed;
+  color: #1e272c;
+  text-align: center;
+  left: 40.5vw;
+  right: 39.5vw;
+  bottom: 5px;
+}
+.header {
+  padding: 10px 10px 0px 10px;
+  font-size: 10vh;
+  text-align: center;
+  top: 3vh;
+  font-family: "Sansita Swashed", cursive;
+  color: #312c51;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .card {
+    height: 20vh;
+    max-height: 20vh;
+    width: 70vw;
+    background-color: #f8d49d;
+    font-size: 3vw;
+    margin: 6vh auto auto auto;
+    border-radius: 10px;
+    overflow-y: scroll;
+    padding: 12px;
+  }
+  .bottom {
+    position: fixed;
+    color: #1e272c;
+    text-align: center;
+    left: 30vw;
+    right: 30vw;
+    bottom: 5px;
+  }
+  .button:hover {
+    background-color: #d35d6e;
+  }
+  .button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    background-color: lavender;
+    /* Lowering the shadow */
+  }
+  .header {
+    padding: 10px 10px 0px 10px;
+    font-size: 10vh;
+    text-align: center;
+    top: 3vh;
+    font-weight: bold;
+    font-family: "Sansita Swashed", cursive;
+    color: #312c51;
+  }
+}
